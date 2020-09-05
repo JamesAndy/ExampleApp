@@ -2,6 +2,9 @@ package com.jameschang.exampleapp;
 
 import org.junit.Test;
 
+import java.lang.reflect.Array;
+import java.util.List;
+
 import static org.junit.Assert.*;
 
 /**
@@ -12,6 +15,9 @@ import static org.junit.Assert.*;
 public class ExampleUnitTest {
     @Test
     public void addition_isCorrect() {
+
+        String [] test = {"1","2"};
+
         assertEquals(4, 2 + 2);
     }
 }

@@ -94,6 +94,10 @@
         android:layout_height="wrap_content"
         android:text="@string/insertReceiptButtonTextLabel"
         />
-
+    <TextView
+        android:id="@+id/finishContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />
 
 </LinearLayout>
